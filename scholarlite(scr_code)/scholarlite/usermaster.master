@@ -1,0 +1,283 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="usermaster.master.cs" Inherits="usermaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style>
+        h1{
+            margin-bottom:0px;
+        }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+        .auto-style3 {
+            font-size: x-large;
+        }
+        .auto-style4 {
+            background-color: #FFFFFF;
+        }
+        .auto-style5 {
+            width: 100%;
+            height: 267px;
+        }
+        .auto-style7 {
+            font-size: 60pt;
+            width: 1890px;
+            height: 17px;
+            text-align: center;
+        }
+        .auto-style11 {
+            text-align: right;
+            background-color: #CCCCCC;
+            }
+        .auto-style12 {
+            text-align: left;
+        }
+        .auto-style14 {
+            font-size: x-large;
+            width: 1890px;
+            text-align: center;
+            height: 31px;
+        }
+        .auto-style16 {
+            text-align: left;
+            width: 124px;
+            background-color: #CCCCCC;
+            }
+        .auto-style17 {
+            font-size: xx-large;
+            width: 124px;
+        }
+        .auto-style18 {
+            font-size: large;
+            text-align: right;
+            width: 212px;
+        }
+        .auto-style19 {
+    
+            background-color: #008E53;
+            text-align: center;
+        }
+        .auto-style20 {
+            background-color: #CCCCCC;
+        }
+        .auto-style23 {
+            width: 100%;
+        }
+        .auto-style24 {
+            text-align: center;
+            font-size: x-large;
+            color: #FFFFFF;
+        }
+        .auto-style25 {
+            width: 104px;
+        }
+        .auto-style27 {
+            font-size: xx-large;
+        }
+        .auto-style28 {
+            height: 86px;
+        }
+        .auto-style29 {
+            width: 486px;
+        }
+        .auto-style30 {
+            color: #000000;
+        }
+        .auto-style31 {
+            height: 86px;
+            text-align: center;
+        }
+        .auto-style32 {
+            text-align: center;
+        }
+        .auto-style33 {
+            text-align: center;
+            text-decoration: underline;
+            font-size: x-large;
+            color: #000000;
+        }
+        .auto-style34 {
+            font-size: large;
+            text-decoration: underline;
+            color: #000000;
+        }
+        .auto-style35 {
+            font-size: large;
+            color: #000000;
+        }
+        .auto-style37 {
+            color: #000000;
+            text-decoration: none;
+        }
+        .auto-style39 {
+            width: 104px;
+            font-size: x-large;
+            height: 35px;
+            background-color: #008A4F;
+        }
+        .auto-style40 {
+            height: 35px;
+        }
+        </style>
+    <link rel="shortcut icon" type="image/x-icon" href="~/favicon.ico" />
+
+</head>
+<body>
+
+    <form id="form1" runat="server">
+
+   <div>
+       
+       <table class="auto-style5">
+           <tr>
+               
+               <td class="auto-style16">
+                              <asp:HyperLink ID="HyperLink6" runat="server" ImageHeight="20px" ImageUrl="~/img/admin-with-cogwheels.png" ImageWidth="20px" NavigateUrl="~/admincred.aspx" style="text-align: right"></asp:HyperLink>
+
+               </td><td class="auto-style11" colspan="2">
+                   <asp:Image ID="Image1" runat="server" Height="25px" ImageUrl="~/img/icons8-ringing-phone-64.png" Width="25px" />
+           <span class="auto-style3">:<span class="auto-style20" style="color: rgb(51, 51, 51); font-family: Lato, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">+91-80-22278468 / 2223 5626&nbsp;&nbsp;&nbsp;&nbsp;
+                   <span class="auto-style4" style="color: rgb(51, 51, 51); font-family: Lato, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">
+           <asp:HyperLink ID="HyperLink3" runat="server" href="https://twitter.com/alameen_degree" ImageHeight="24px" ImageUrl="~/img/icons8-twitter-48.png" ImageWidth="25px" CssClass="auto-style20" BackColor="White" BorderColor="#CCCCCC"></asp:HyperLink>
+                   </span>&nbsp;<span class="auto-style4" style="color: rgb(51, 51, 51); font-family: Lato, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;"><asp:HyperLink ID="HyperLink2" runat="server" href="https://www.instagram.com/alameen_degree/" ImageHeight="24px" ImageUrl="~/img/icons8-instagram-48.png" ImageWidth="25px" CssClass="auto-style4" BackColor="White" BorderColor="#CCCCCC"></asp:HyperLink>
+                   </span>&nbsp;<span class="auto-style4" style="color: rgb(51, 51, 51); font-family: Lato, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;"><asp:HyperLink ID="HyperLink8" runat="server" href="https://www.facebook.com/alameendegreecollege" ImageHeight="24px" ImageUrl="~/img/icons8-facebook-48.png" ImageWidth="25px" CssClass="auto-style4" BackColor="White" BorderColor="#CCCCCC"></asp:HyperLink>
+                   </span>&nbsp;
+           </span><span class="auto-style4" style="color: rgb(51, 51, 51); font-family: Lato, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;"></span></span></td>
+           </tr>
+           <tr>
+               <td class="auto-style17" rowspan="2">
+                   <asp:HyperLink ID="HyperLink15" runat="server" Height="157px" ImageHeight="150px" ImageUrl="~/img/Al-Ameen logo.png" ImageWidth="150px" NavigateUrl="~/home.aspx" Width="148px" BorderColor="White"></asp:HyperLink>
+               </td>
+               <td class="auto-style7">AL-AMEEN SCHOLARSHIP TRUST</td>
+               <td class="auto-style18" rowspan="2"><span class="auto-style12">Affiliated to Banglore Central Universiity</span><br class="auto-style12" />
+                   <span class="auto-style12">Reaccredited by NAAC with &#39;A&#39; Grade</span></td>
+           </tr>
+           <tr>
+               <td class="auto-style14">Ground Floor, Administrative Block,Al-Ameen College Campus, Hosur Road, Bangalore - 560027</td>
+           </tr>
+           <tr>
+               <td class="auto-style19" colspan="3" style="height:25px">&nbsp;
+                   <asp:Menu ID="Menu1" runat="server" BackColor="#008E53" BorderColor="#008E53" StaticSubMenuIndent="15px" Orientation="Horizontal">
+                    
+                       <Items>
+                           <asp:MenuItem Text="Home" Value="Home" NavigateUrl="~/home.aspx"></asp:MenuItem>
+                           <asp:MenuItem Text="Apply here" Value="Apply for Scholarship" NavigateUrl="~/type.aspx"></asp:MenuItem>
+                           <asp:MenuItem Text="Scholarship Status" Value="Check Scholarship" NavigateUrl="~/ChecksStatus.aspx"></asp:MenuItem>
+                           <asp:MenuItem Text="Events/Notification" Value="Notification" NavigateUrl="~/portal.aspx"></asp:MenuItem>
+                           <asp:MenuItem Text="Chairman's Message" Value="Chairman's Message" NavigateUrl="~/ChairmanDetails.aspx"></asp:MenuItem>
+                           <asp:MenuItem Text="Institute Distinctiveness" Value="Institute Distinctiveness" NavigateUrl="~/InstDist.aspx"></asp:MenuItem>
+                           <asp:MenuItem Text="Gov. Scholarships" Value="Gov. Scholarships" NavigateUrl="~/GovSch.aspx"></asp:MenuItem>
+                       </Items>
+                       <StaticHoverStyle BackColor="#3399FF" />
+                       <StaticMenuItemStyle Font-Bold="True" Font-Size="Large" HorizontalPadding="15px" />
+                       <StaticMenuStyle BackColor="#008E53" HorizontalPadding="15px" />
+                       <StaticSelectedStyle BackColor="#008E53" />
+                   </asp:Menu>
+               </td>
+           </tr>
+      
+           <tr>
+               <td  colspan="3"><asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder></td>
+           </tr>
+      
+     
+
+           <tr>
+               <td  colspan="3">
+                   <div style="background-image: url('/img/Hisham.jpg'); background-position: center center;">
+
+
+                       <table class="auto-style23">
+                           <tr>
+                               <td class="auto-style33" colspan="2">About Us</td>
+                               <td class="auto-style33">Quick Links</td>
+                               <td class="auto-style24">&nbsp;</td>
+                           </tr>
+                           <tr>
+                               <td class="auto-style25" rowspan="4">
+                   <asp:HyperLink ID="HyperLink16" runat="server" Height="81px" ImageHeight="100px" ImageUrl="~/img/Al-Ameen logo.png" ImageWidth="100px" NavigateUrl="~/home.aspx" Width="79px" BorderColor="White"></asp:HyperLink>
+                               </td>
+                               <td  rowspan="4" class="auto-style29"><span class="auto-style27"><span class="auto-style30">AL-AMEEN SCHOLARSHIP TRUST</span><br class="auto-style30" />
+                                   </span><span class="auto-style30">Ground Floor, Administrative Block,</span><br class="auto-style30" />
+                                   <span class="auto-style30">Al-Ameen College Campus, Hosur Road, Bangalore - 560027</span></td>
+                               <td class="auto-style32">
+                   <asp:HyperLink ID="HyperLink20" runat="server" Font-Size="Large" ForeColor="Black" NavigateUrl="~/portal.aspx" CssClass="auto-style37">Notifications</asp:HyperLink>
+                               </td>
+                               <td>
+                   <asp:HyperLink ID="HyperLink24" runat="server" Font-Size="Large" Font-Underline="False" ForeColor="Black" CssClass="auto-style30" NavigateUrl="~/GovSch.aspx">Gov. Scholarships</asp:HyperLink>
+                               </td>
+                           </tr>
+                           <tr>
+                               <td class="auto-style32">
+                   <asp:HyperLink ID="HyperLink21" runat="server" Font-Size="Large" Font-Underline="False" ForeColor="Black" CssClass="auto-style30" NavigateUrl="~/ChairmanDetails.aspx">Chairman&#39;s Message</asp:HyperLink>
+                               </td>
+                               <td>
+                                   &nbsp;</td>
+                           </tr>
+                           <tr>
+                               <td class="auto-style32">
+                   <asp:HyperLink ID="HyperLink22" runat="server" CssClass="auto-style35" Font-Underline="False" ForeColor="Black" NavigateUrl="~/InstDist.aspx">Institute Distinctiveness</asp:HyperLink>
+                               </td>
+                               <td>&nbsp;</td>
+                           </tr>
+                           <tr>
+                               <td class="auto-style31">
+                   <asp:HyperLink ID="HyperLink23" runat="server" CssClass="auto-style34" ForeColor="Black" NavigateUrl="~/type.aspx" Font-Underline="False">Apply For ScholarShip</asp:HyperLink>
+                               </td>
+                               <td class="auto-style28"></td>
+                           </tr>
+                           <tr>
+                               <td class="auto-style39">
+                                   <span class="auto-style20" style="color: rgb(51, 51, 51); font-family: Lato, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">
+                   <span class="auto-style4" style="color: rgb(51, 51, 51); font-family: Lato, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">
+           <asp:HyperLink ID="HyperLink17" runat="server" href="https://twitter.com/alameen_degree" ImageHeight="24px" ImageUrl="~/img/icons8-twitter-48.png" ImageWidth="25px" CssClass="auto-style38" BackColor="White" BorderColor="#CCCCCC"></asp:HyperLink>
+                   &nbsp; <asp:HyperLink ID="HyperLink18" runat="server" href="https://www.instagram.com/alameen_degree/" ImageHeight="24px" ImageUrl="~/img/icons8-instagram-48.png" ImageWidth="25px" CssClass="auto-style38" BackColor="White" BorderColor="#CCCCCC"></asp:HyperLink>
+                   &nbsp; <asp:HyperLink ID="HyperLink19" runat="server" href="https://www.facebook.com/alameendegreecollege" ImageHeight="24px" ImageUrl="~/img/icons8-facebook-48.png" ImageWidth="25px" CssClass="auto-style38" BackColor="White" BorderColor="#CCCCCC"></asp:HyperLink>
+                   </span>
+           </span></td>
+                               <td colspan="3" class="auto-style40"></td>
+                           </tr>
+                       </table>
+
+
+                   </div>
+               </td>
+           </tr>
+      
+     
+
+     </table>
+    </div>
+    </form>
+</body>
+</html>

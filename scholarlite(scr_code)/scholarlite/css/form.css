@@ -1,0 +1,99 @@
+﻿body {
+}
+h1,h4{
+}
+.freshform {
+    width: 60%;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px 20px 0px 20px;
+}
+legend{
+    font-variant:small-caps;
+    font-weight:bolder;
+    font-size:30px;
+    margin:-5px;
+    padding-top:30px;
+}
+fieldset{
+    border:none;
+    width:100%;
+}
+table{
+    width:100%;
+}
+td{
+}
+.txt {
+    margin:auto;
+    height: 30px;
+    width: 98%;
+    border-width: 1px 1px 1px 1px;
+    border-color: grey;
+    border-radius: 5px;
+    padding:0px;
+}
+.otp {
+    height: 30px;
+    color: black;
+    width: 10%;
+ 
+    border-width: 1px 1px 1px 1px;
+    border-color: grey;
+    border-radius: 5px;
+    line-height: 25px;
+    text-decoration: none;
+}
+.otp2 {
+    text-decoration: none;
+    background: #68AEF2;
+    width: 10px;
+    padding:0.3% 3%;
+    
+    height: 30px;
+    line-height: 25px;
+    border-radius: 5px;
+    color: white;
+}
+.otp2:hover {
+        background-color: white;
+        color: #68AEF2;
+       
+        border: solid 1px #68AEF2;
+    }
+.ermsg {
+    background-color: #FFAEAE;
+    border:solid 1px black; 
+
+}
+.printform {
+    border: solid 1px black;
+    border-collapse: collapse;
+}
+.printform td{
+    border:solid 1px black;
+    border-collapse:collapse;
+    padding:10px;
+}
+.printhead{
+    
+    text-align:center
+}
+.shead {
+    font-variant: small-caps;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.printform h1 {
+    font-size: 45px;
+    font-variant: small-caps;
+   
+    font-weight: bolder;
+}
+.foot{
+    margin-left:80%;
+    margin-top:50px;
+ text-align:left;
+    float:left;
+}
+
